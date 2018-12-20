@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`preset returns expected config 1`] = `
+Object {
+  "files": Object {
+    "dest": Object {
+      "absolute": Object {
+        ".huskyrc.js": "<PROJECT_ROOT>/.huskyrc.js",
+      },
+      "allowChanges": Object {
+        ".huskyrc.js": false,
+      },
+      "files": Array [
+        ".huskyrc.js",
+      ],
+      "ignoreUpdates": Object {
+        ".huskyrc.js": false,
+      },
+    },
+    "makeDirs": Array [
+      "dist",
+      "src",
+    ],
+    "src": Object {
+      "absolute": Object {
+        "lib/files/husky.js": "<PROJECT_ROOT>/lib/files/husky.js",
+      },
+      "files": Array [
+        "lib/files/husky.js",
+      ],
+      "hash": Object {
+        "lib/files/husky.js": "f7b6f2abb505e7b45fb028edb1a032b9fb7c997e4d563fdd0567beb582f8da76",
+      },
+    },
+  },
+  "git-pre-commit": Array [
+    [Function noop],
+  ],
+  "git-pre-push": Array [
+    [Function noop],
+  ],
+  "resolve": Object {
+    "@backtrack/preset-git-hooks": "<PROJECT_ROOT>/lib",
+  },
+}
+`;
