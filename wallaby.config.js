@@ -62,11 +62,11 @@ const wallaby = (wallabyConfig) => {
                 const fs = require('fs');
                 const path = require('path');
                 const realModules = path.join(
-                    wallaby.localProjectDir,
+                    setupConfig.localProjectDir,
                     'node_modules'
                 );
                 const linkedModules = path.join(
-                    wallaby.projectCacheDir,
+                    setupConfig.projectCacheDir,
                     'node_modules'
                 );
 
