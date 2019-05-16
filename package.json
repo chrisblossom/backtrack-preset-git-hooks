@@ -13,8 +13,7 @@
   "license": "MIT",
   "author": "Chris Blossom",
   "engines": {
-    "node": ">=6.9.0",
-    "npm": ">=3.10.10"
+    "node": ">=8.9.0"
   },
   "files": [
     "lib/"
@@ -30,14 +29,17 @@
     "test": "backtrack test",
     "test.ci": "backtrack test.ci",
     "test.ci-pretest": "backtrack test.ci-pretest",
-    "test.update": "jest --updateSnapshot",
+    "test.update": "jest --update-snapshot",
     "test.watch": "jest --watch"
+  },
+  "peerDependencies": {
+    "@backtrack/core": ">=0.2.0"
   },
   "devDependencies": {
     "@backtrack/core": "^0.1.23",
-    "@backtrack/preset-preset": "^0.3.12"
+    "@backtrack/preset-preset": "^0.4.0"
   },
   "dependencies": {
-    "husky": "^1.2.1"
+    "husky": "^2.3.0"
   }
 }
