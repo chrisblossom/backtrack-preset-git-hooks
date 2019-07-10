@@ -25,23 +25,23 @@
 'use strict';
 
 module.exports = {
-    presets: ['@backtrack/git-hooks'],
+	presets: ['@backtrack/git-hooks'],
 
-    // pre-commit hook
-    'git-pre-commit': [],
-    // pre-commit hook
-    'git-pre-push': [],
+	// pre-commit hook
+	'git-pre-commit': [],
+	// pre-commit hook
+	'git-pre-push': [],
 
-    /**
-     * add custom hooks
-     */
-    'git-commit-msg': [],
-    config: {
-        husky: {
-            hooks: {
-                'commit-msg': 'npm run git-commit-msg',
-            },
-        },
-    },
+	/**
+	 * add custom hooks
+	 */
+	'git-commit-msg': [],
+	config: {
+		husky: {
+			hooks: {
+				'commit-msg': 'npm run git-commit-msg',
+			},
+		},
+	},
 };
 ```
