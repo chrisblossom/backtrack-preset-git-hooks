@@ -1,6 +1,6 @@
 {
   "name": "@backtrack/preset-git-hooks",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "backtrack preset for adding git hooks",
   "keywords": [
     "backtrack",
