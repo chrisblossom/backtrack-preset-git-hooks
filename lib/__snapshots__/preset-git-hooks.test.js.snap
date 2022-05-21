@@ -5,31 +5,39 @@ Object {
   "files": Object {
     "dest": Object {
       "absolute": Object {
-        ".huskyrc.js": "<PROJECT_ROOT>/.huskyrc.js",
+        ".husky/pre-commit": "<PROJECT_ROOT>/.husky/pre-commit",
+        ".husky/pre-push": "<PROJECT_ROOT>/.husky/pre-push",
       },
       "allowChanges": Object {
-        ".huskyrc.js": false,
+        ".husky/pre-commit": false,
+        ".husky/pre-push": false,
       },
       "files": Array [
-        ".huskyrc.js",
+        ".husky/pre-commit",
+        ".husky/pre-push",
       ],
       "ignoreUpdates": Object {
-        ".huskyrc.js": false,
+        ".husky/pre-commit": false,
+        ".husky/pre-push": false,
       },
     },
     "makeDirs": Array [
+      ".husky",
       "dist",
       "src",
     ],
     "src": Object {
       "absolute": Object {
-        "lib/files/husky.js": "<PROJECT_ROOT>/lib/files/husky.js",
+        "lib/files/pre-commit": "<PROJECT_ROOT>/lib/files/pre-commit",
+        "lib/files/pre-push": "<PROJECT_ROOT>/lib/files/pre-push",
       },
       "files": Array [
-        "lib/files/husky.js",
+        "lib/files/pre-commit",
+        "lib/files/pre-push",
       ],
       "hash": Object {
-        "lib/files/husky.js": "b242a598aa796a3ac2dc5cc64b83ba86ac5260414a591bb09b5ab6b4f7c027fe",
+        "lib/files/pre-commit": "e4add719772b9da7940f03a22d607f8c8c86a543b9260739f9a8143b89007597",
+        "lib/files/pre-push": "bd2849b7a84e41755e4c74b1a3d0640914f2cf1a1a4373640aa8d6308a3c53ee",
       },
     },
   },
